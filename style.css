@@ -1,0 +1,62 @@
+/* Фон на хедъра */
+.hero {
+    position: relative;
+    background: url('../images/header.jpg') center/cover no-repeat;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Тъмен слой върху снимката */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.title-chitalishte {
+    position: relative;
+    z-index: 2;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Меню */
+nav {
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Основен текст */
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: white; /* всички текстове бели */
+}
+
+/* Само този надпис да е черен */
+.only-black {
+    color: black !important;
+}
+
+/* Секции */
+.intro {
+    padding: 40px;
+    text-align: center;
+}
